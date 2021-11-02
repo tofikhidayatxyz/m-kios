@@ -2,7 +2,7 @@
 
 class library {
 	public function __construct() {
-		$this->db  =   new pdo("mysql:host=localhost;dbname=db_kios","root","mazenda9999");
+		$this->db  =   new pdo("mysql:host=localhost;dbname=db_kios","root","");
 	}
 
 	public function viewALl() {
